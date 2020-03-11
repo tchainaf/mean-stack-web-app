@@ -1,0 +1,16 @@
+<%- include('partials/header') %>
+<div class="form-container">
+    <h2>Question</h2>
+    <% if(locals.error) { %>
+    <div class="alert alert-danger"><%= error %></div>
+    <% } %>
+
+    <table>
+        <tr>
+            <th>Question</th>
+            <th>Actions</th>
+        </tr>
+    </table>
+
+</div>
+<%- include('partials/footer') %>
